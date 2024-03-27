@@ -1,9 +1,5 @@
-import styles from './index.module.scss';
+import Parent from '@/components/Parent';
 
-const Page = () => (
-  <h1 className={styles.heading}>
-    Hello, World!
-  </h1>
-);
+const Page = () => <Parent />;
 
 export default Page;
